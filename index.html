@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Elementos de Interés en Bootstrap</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container">
+  <!-- Jumbotron -->
+  <div class="bg-light m-3 p-5 rounded-3">
+    <div class="container-fluid py-3">
+      <h1 class="h1 fw-bold">Jumbotron personalizado</h1>
+    <p class="col-md-8 fs-4 my-3">Estoy practicando bootstrap, el ejercicio pedía realizar un jumbotron que contenga un boton para ejecutar un modal de ejemplo, podrías probarlo :)</p>
+    <button type="button" class="btn btn-primary btn-lg my-3" data-bs-toggle="modal" data-bs-target="#exampleModal"> Abrir modal </button>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ejecutaste el modal!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Este es un modal de ejemplo, estoy practicando bootstrap :)
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar modal</button>
+            <button type="button" class="btn btn-primary">Guardar cambios</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Seccion 2 formulario -->
+    <form class="form-control p-3 bg-light">
+      <div class="form-floating">
+        <input class="form-control" id="floatingInput" type="text" placeholder="Nombre">
+        <label for="floatingInput"> Nombre </label>
+      </div>
+
+        <div class="form-floating my-3">
+          <input class="form-control" id="floatingInput" type="number" placeholder="Telefono">
+          <label for="floatingInput"> Telefono </label>
+        </div>
+
+        <div class="form-floating my-3">
+          <textarea class="form-control" placeholder="Deja tu mensaje aquí" id="floatingTextarea"></textarea>
+          <label for="floatingTextarea">Deja tu mensaje aquí</label>
+        </div>
+    </form>
+
+  <!-- Seccion 3 tarjetas -->
+
+  <div class="card text-bg-dark mt-5" border >
+    <div class="card-body">
+      <h5 class="card-title">Jonathan Pardo</h5>
+      <p class="card-text my-2">Estudiante de Diseño multimedial, tengo 26 años, vivo en Argentina y estoy estudiando programación a través del programa guíado de OpenBootcamp!!</p>
+      <div class="card-footer text-center mt-4 border-light">yonipardo4@gmail.com</div>
+    </div>
+
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<div class="container">
+  <div class="row">
+    <table class="table table-striped table-hover">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Usuario</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jonathan</td>
+          <td>Pardo</td>
+          <td>JP</td>
+        </tr>
+        <tr>
+          <td>Manuel</td>
+          <td>Perez</td>
+          <td>MP</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div> -->
